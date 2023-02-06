@@ -29,5 +29,5 @@ def mergesort(arr,start,end):
 arr = [10,5,2,0,7,6,4,3]
 start = 0
 end = len(arr) - 1
-mergesort(arr,start,end)
+mergesort(arr,start,end) 
 print(arr)
