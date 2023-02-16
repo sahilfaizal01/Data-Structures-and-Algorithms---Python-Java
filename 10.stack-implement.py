@@ -1,9 +1,13 @@
 stack = []
+n = 10
 
 def push():
-  ele = input('Enter the element:')
-  stack.append(ele)
-  print(stack)
+  if len(stack) == n:
+    print('Stack is full')
+  else:
+    ele = input('Enter the element:')
+    stack.append(ele)
+    print(stack)
 
 def pop_element():
   if not stack:
